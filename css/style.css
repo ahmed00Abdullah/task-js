@@ -16,6 +16,7 @@ ul li{
   margin-bottom: 20px;
   list-style: none;
   background-color: rgb(41, 41, 41);
+  color: gray;
 }
 ul li a{
   padding: 30px;
@@ -49,15 +50,4 @@ ul li:hover a{
   font-size: 28px;
   margin-left: 20px;
   background-color: green;
-}
-@media (max-width: 990px) {
-  /* ul{
-    display: flex;
-    flex-direction: row;
-    
-  }
-  ul li{
-    display: grid;
-    flex-wrap: wrap;
-  } */
 }
