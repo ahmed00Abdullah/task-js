@@ -6,11 +6,8 @@
 /* ////////////////////////// */
 .section1{
   display: flex;
-  /* justify-content: space-between; */
-  /* background-color: beige; */
 }
 ul{
-  width: 25%;
   padding: 10px;
   background-color: black;
 }
@@ -35,7 +32,6 @@ ul li:hover a{
   color: #000;
 }
 .data{
-  width: 75%;
   padding: 50px;
   background-color: rgb(113, 113, 94);
   color: #fff;
@@ -47,12 +43,21 @@ ul li:hover a{
   padding: 5px !important;
   font-size: 24px !important;
   background-color: darkgrey !important;
-  /* color: #fff; */
-  /* border: none; */
   
 }
 .price #totalPrice{
   font-size: 28px;
   margin-left: 20px;
   background-color: green;
+}
+@media (max-width: 990px) {
+  /* ul{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  ul li{
+    display: grid;
+    flex-wrap: wrap;
+  } */
 }
